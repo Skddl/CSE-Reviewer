@@ -1,9 +1,20 @@
-# CSE-Reviewer
+# Skddl — Portfolio
 
-InfraDesk is included as a separate static portfolio demo in the `infradesk/` directory.
+A lightweight portfolio homepage for selected web projects. It is built with plain HTML, CSS, and JavaScript; no build step or package install is needed.
 
 ## GitHub Pages
 
-The `Deploy to GitHub Pages` workflow publishes the contents of `infradesk/` to this repository's Pages site whenever a commit is pushed to `main`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+The `Deploy portfolio to GitHub Pages` workflow publishes only the contents of `portfolio/` to the Pages site:
 
-InfraDesk uses plain HTML, CSS, and JavaScript. Demo changes are stored in the visitor's browser with `localStorage`; it does not run live monitoring checks or use a shared database.
+https://skddl.github.io/CSE-Reviewer/
+
+The separate InfraDesk demo source remains in `infradesk/` and is not included in the Pages deployment.
+
+## Featured projects
+
+- **CSE PH Reviewer** — live study app at https://cscjhelo.netlify.app/
+- **InfraDesk** — static operations dashboard prototype in `infradesk/`. It uses sample data and browser-local storage; it does not run live service checks or use a shared database.
+
+## Local preview
+
+Open `portfolio/index.html` in a browser. The site has no external runtime dependencies. The theme preference is stored locally when browser storage is available.
