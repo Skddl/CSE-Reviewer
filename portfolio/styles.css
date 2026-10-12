@@ -62,7 +62,7 @@ button { color: inherit; }
 .eyebrow-line { display: inline-block; width: 25px; height: 1px; background: #8ea63c; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: Manrope, 'Segoe UI', sans-serif; }
-.hero h1 { max-width: 560px; margin-bottom: 23px; font-size: clamp(52px, 6.1vw, 78px); font-weight: 700; letter-spacing: -5px; line-height: 1.04; }
+.hero h1 { max-width: 560px; margin-bottom: 23px; font-size: clamp(50px, 5.45vw, 68px); font-weight: 700; letter-spacing: -4.5px; line-height: 1.04; }
 .hero h1 span { color: #8ea63c; }
 .hero-lede { max-width: 430px; margin-bottom: 27px; color: var(--ink-soft); font-size: 16px; line-height: 1.75; }
 .hero-actions { display: flex; align-items: center; gap: 25px; }
